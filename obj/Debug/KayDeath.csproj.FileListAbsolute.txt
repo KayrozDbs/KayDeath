@@ -14,3 +14,4 @@ d:\plugin\kaydeath\KayDeath\bin\Debug\runtimes\win-x64\native\cimgui.dll
 d:\plugin\kaydeath\KayDeath\bin\Debug\runtimes\win-x86\native\cimgui.dll
 d:\plugin\kaydeath\KayDeath\obj\Debug\KayDeath.csproj.Up2Date
 d:\plugin\kaydeath\KayDeath\obj\Debug\KayDeath.dll
+D:\plugin\kaydeath\KayDeath\obj\Debug\KayDeath.sourcelink.json

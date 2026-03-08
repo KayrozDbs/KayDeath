@@ -20,6 +20,7 @@ namespace KayDeath
         [PluginService] public static IObjectTable ObjectTable { get; private set; } = null!;
         [PluginService] public static IPartyList PartyList { get; private set; } = null!;
         [PluginService] public static IChatGui ChatGui { get; private set; } = null!;
+        [PluginService] public static ICondition Condition { get; private set; } = null!;
 
         public string Name => "KayDeath";
         private const string CommandName = "/kaydeath";

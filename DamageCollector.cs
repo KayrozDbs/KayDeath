@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.Plugin.Services;
+using Dalamud.Game.ClientState.Conditions;
 
 namespace KayDeath
 {
@@ -28,8 +29,8 @@ namespace KayDeath
             if (!Plugin.ClientState.IsLoggedIn) return;
             
             // Skip processing during cutscenes (prevents errors with invalid objects)
-            if (Plugin.Condition[Dalamud.Game.ClientState.Conditions.ConditionFlag.OccupiedInCutscene]) return;
-            if (Plugin.Condition[Dalamud.Game.ClientState.Conditions.ConditionFlag.WatchingCutscene78]) return;
+            if (Plugin.Condition[(ConditionFlag)32]) return; // OccupiedInCutscene
+            if (Plugin.Condition[(ConditionFlag)78]) return; // WatchingCutscene78
 
             // 1. Track NPC casts to associate actions with damage
             UpdateCastCache();

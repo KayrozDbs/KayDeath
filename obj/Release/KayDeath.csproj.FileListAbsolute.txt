@@ -1,0 +1,17 @@
+D:\plugin\kaydeath\KayDeath\obj\Release\KayDeath.csproj.AssemblyReference.cache
+D:\plugin\kaydeath\KayDeath\obj\Release\KayDeath.GeneratedMSBuildEditorConfig.editorconfig
+D:\plugin\kaydeath\KayDeath\obj\Release\KayDeath.AssemblyInfoInputs.cache
+D:\plugin\kaydeath\KayDeath\obj\Release\KayDeath.AssemblyInfo.cs
+D:\plugin\kaydeath\KayDeath\obj\Release\KayDeath.csproj.CoreCompileInputs.cache
+D:\plugin\kaydeath\KayDeath\obj\Release\KayDeath.sourcelink.json
+D:\plugin\kaydeath\KayDeath\bin\Release\KayDeath.json
+D:\plugin\kaydeath\KayDeath\bin\Release\KayDeath.deps.json
+D:\plugin\kaydeath\KayDeath\bin\Release\KayDeath.dll
+D:\plugin\kaydeath\KayDeath\bin\Release\ImGui.NET.dll
+D:\plugin\kaydeath\KayDeath\bin\Release\runtimes\linux-x64\native\libcimgui.so
+D:\plugin\kaydeath\KayDeath\bin\Release\runtimes\osx\native\libcimgui.dylib
+D:\plugin\kaydeath\KayDeath\bin\Release\runtimes\win-arm64\native\cimgui.dll
+D:\plugin\kaydeath\KayDeath\bin\Release\runtimes\win-x64\native\cimgui.dll
+D:\plugin\kaydeath\KayDeath\bin\Release\runtimes\win-x86\native\cimgui.dll
+D:\plugin\kaydeath\KayDeath\obj\Release\KayDeath.csproj.Up2Date
+D:\plugin\kaydeath\KayDeath\obj\Release\KayDeath.dll
