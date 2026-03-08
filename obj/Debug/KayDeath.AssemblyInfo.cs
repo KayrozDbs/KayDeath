@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KayDeath")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.0+df281f219804f0ad7162037f7866dac8651443e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.0+024d77d5908d424f0a8738db65f2c436c1513279")]
 [assembly: System.Reflection.AssemblyProductAttribute("KayDeath")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KayDeath")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

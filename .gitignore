@@ -1,0 +1,21 @@
+# Standard .gitignore for C# projects
+bin/
+obj/
+*.user
+*.suo
+*.sln.dotSettings.user
+.vs/
+.idea/
+.vscode/
+
+# Build artifacts
+*.dll
+*.pdb
+*.json
+!KayDps.json
+!*.png
+!*.jpg
+
+# Dependencies
+packages/
+node_modules/
