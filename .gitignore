@@ -12,7 +12,7 @@ obj/
 *.dll
 *.pdb
 *.json
-!KayDps.json
+!KayDeath.json
 !*.png
 !*.jpg
 
