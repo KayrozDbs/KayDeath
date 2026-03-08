@@ -1,0 +1,14 @@
+  Identification des projets ├á restaurer...
+  Tous les projets sont ├á jour pour la restauration.
+  Dalamud.NET.Sdk: root at C:\Users\rchau\AppData\Roaming\XIVLauncher\addon\Hooks\dev\
+D:\plugin\kaydeath\KayDeath\Plugin.cs(94,24): error CS0246: Le nom de type ou d'espace de noms 'List<>' est introuvable (vous manque-t-il une directive using ou une r├®f├®rence d'assembly┬á?) [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+D:\plugin\kaydeath\KayDeath\Plugin.cs(123,24): error CS0246: Le nom de type ou d'espace de noms 'List<>' est introuvable (vous manque-t-il une directive using ou une r├®f├®rence d'assembly┬á?) [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+
+├ëCHEC de la build.
+
+D:\plugin\kaydeath\KayDeath\Plugin.cs(94,24): error CS0246: Le nom de type ou d'espace de noms 'List<>' est introuvable (vous manque-t-il une directive using ou une r├®f├®rence d'assembly┬á?) [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+D:\plugin\kaydeath\KayDeath\Plugin.cs(123,24): error CS0246: Le nom de type ou d'espace de noms 'List<>' est introuvable (vous manque-t-il une directive using ou une r├®f├®rence d'assembly┬á?) [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+    0 Avertissement(s)
+    2 Erreur(s)
+
+Temps ├®coul├® 00:00:01.61

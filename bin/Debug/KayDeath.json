@@ -1,0 +1,20 @@
+{
+  "Author": "Kaynoss",
+  "Name": "KayDeath",
+  "InternalName": "KayDeath",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Récapitulatif de mort détaillé pour vous et votre groupe.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "combat",
+    "utility",
+    "death recap"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Comprenez pourquoi vous êtes mort.",
+  "AcceptsFeedback": true
+}

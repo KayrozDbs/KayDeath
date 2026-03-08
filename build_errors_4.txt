@@ -1,0 +1,20 @@
+  Identification des projets ├á restaurer...
+  Tous les projets sont ├á jour pour la restauration.
+  Dalamud.NET.Sdk: root at C:\Users\rchau\AppData\Roaming\XIVLauncher\addon\Hooks\dev\
+D:\plugin\kaydeath\KayDeath\Plugin.cs(70,17): error CS0103: Le nom 'CreateMockDeath' n'existe pas dans le contexte actuel [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+D:\plugin\kaydeath\KayDeath\KayDeathWindow.cs(124,91): error CS0103: Le nom 'ImGuiWindowFlags' n'existe pas dans le contexte actuel [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+D:\plugin\kaydeath\KayDeath\KayDeathWindow.cs(141,22): warning CS8602: D├®r├®f├®rencement d'une ├®ventuelle r├®f├®rence null. [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+D:\plugin\kaydeath\KayDeath\KayDeathWindow.cs(177,36): warning CS8602: D├®r├®f├®rencement d'une ├®ventuelle r├®f├®rence null. [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+D:\plugin\kaydeath\KayDeath\KayDeathWindow.cs(209,21): warning CS8602: D├®r├®f├®rencement d'une ├®ventuelle r├®f├®rence null. [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+
+├ëCHEC de la build.
+
+D:\plugin\kaydeath\KayDeath\KayDeathWindow.cs(141,22): warning CS8602: D├®r├®f├®rencement d'une ├®ventuelle r├®f├®rence null. [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+D:\plugin\kaydeath\KayDeath\KayDeathWindow.cs(177,36): warning CS8602: D├®r├®f├®rencement d'une ├®ventuelle r├®f├®rence null. [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+D:\plugin\kaydeath\KayDeath\KayDeathWindow.cs(209,21): warning CS8602: D├®r├®f├®rencement d'une ├®ventuelle r├®f├®rence null. [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+D:\plugin\kaydeath\KayDeath\Plugin.cs(70,17): error CS0103: Le nom 'CreateMockDeath' n'existe pas dans le contexte actuel [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+D:\plugin\kaydeath\KayDeath\KayDeathWindow.cs(124,91): error CS0103: Le nom 'ImGuiWindowFlags' n'existe pas dans le contexte actuel [D:\plugin\kaydeath\KayDeath\KayDeath.csproj]
+    3 Avertissement(s)
+    2 Erreur(s)
+
+Temps ├®coul├® 00:00:01.47
