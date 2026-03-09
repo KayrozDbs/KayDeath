@@ -11,7 +11,7 @@ namespace KayDeath
     {
         private readonly Plugin _plugin;
         private readonly Dictionary<ulong, long> _lastHp = new();
-        private readonly Dictionary<ulong, uint> _activeCasts = new();
+        private readonly Dictionary<ulong, (uint ActionId, DateTime Timestamp)> _recentCasts = new();
 
         public DamageCollector(Plugin plugin)
         {
@@ -53,15 +53,23 @@ namespace KayDeath
 
         private void UpdateCastCache()
         {
-            _activeCasts.Clear();
+            var now = DateTime.Now;
             foreach (var obj in Plugin.ObjectTable)
             {
                 if (obj == null) continue;
                 if (obj is IBattleChara bc && bc.IsCasting)
                 {
-                    // Store what this NPC is casting
-                    _activeCasts[bc.GameObjectId] = bc.CastActionId;
+                    // Store what this NPC is casting and when we last saw them cast it
+                    _recentCasts[bc.GameObjectId] = (bc.CastActionId, now);
                 }
+            }
+
+            // Clean up old casts (older than 3 seconds) since damage usually hits within ~1-2 seconds of cast finish
+            var expired = _recentCasts.Where(kvp => (now - kvp.Value.Timestamp).TotalSeconds > 3)
+                                      .Select(kvp => kvp.Key).ToList();
+            foreach (var id in expired)
+            {
+                _recentCasts.Remove(id);
             }
         }
 
@@ -97,7 +105,13 @@ namespace KayDeath
                 {
                     sourceName = bc.Name.TextValue;
                     foundSource = true;
-                    if (bc.IsCasting)
+                    
+                    if (_recentCasts.TryGetValue(bc.GameObjectId, out var recentCast))
+                    {
+                        actionId = recentCast.ActionId;
+                        actionName = _plugin.GetActionName(actionId);
+                    }
+                    else if (bc.IsCasting)
                     {
                         actionId = bc.CastActionId;
                         actionName = _plugin.GetActionName(actionId);
